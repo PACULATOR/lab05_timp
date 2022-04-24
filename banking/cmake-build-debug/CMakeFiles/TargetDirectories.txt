@@ -1,0 +1,3 @@
+/home/paculator/github4ik /lab05_2/lab05_timp/banking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paculator/github4ik /lab05_2/lab05_timp/banking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/paculator/github4ik /lab05_2/lab05_timp/banking/cmake-build-debug/CMakeFiles/bankin.dir
