@@ -1,0 +1,6 @@
+# ninja log v5
+1	1304	1651174890131897892	lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	86e54488bb8d8564
+0	1321	1651174890147898022	CMakeFiles/Google_Tests_run.dir/test.cpp.o	27e1e7da21374e31
+1	4635	1651174893459924949	lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	8d4cd4dd6ddec4e6
+4635	4686	1651174893511925372	lib/libgtest.a	2e6538c9ce4079b1
+4686	4690	1651174893515925404	lib/libgtest_main.a	8bdc9505bf07a90f

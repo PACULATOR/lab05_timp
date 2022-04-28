@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/paculator/github4ik /lab05_2/lab05_timp/cmake-build-debug/lib/googletest-main/cmake_install.cmake")
+  include("/home/paculator/github4ik /lab05_2/lab05_timp/cmake-build-debug/Google_tests/cmake_install.cmake")
 
 endif()
 

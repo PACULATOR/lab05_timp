@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-project(bankin)
-add_library(bankin STATIC ${CMAKE_CURRENT_SOURCE_DIR}/banking/Account.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking/Transaction.cpp)
-add_subdirectory(lib/googletest-main)
-include_directories(lib/googletest-main/googletest/include)
-add_executable( one ${CMAKE_CURRENT_SOURCE_DIR}/test/test.cpp)
-target_link_libraries(bankin gtest gmock)
+project(banking)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(banking ${CMAKE_CURRENT_SOURCE_DIR}/banking/Account.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/banking/Transaction.cpp Google_tests/test.cpp)
+add_subdirectory(Google_tests)
+enable_testing()
